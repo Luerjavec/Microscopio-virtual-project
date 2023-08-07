@@ -1,14 +1,18 @@
 # Preentrega3-ErjavecLuciana
 Tercera preentrega - curso javascript coder
 
+El proyecto puede visualizarse en:
+https://luerjavec.github.io/PF-ErjavecLuciana-JS/
+
 <h1 style="color:Indigo;"><b><u>Microscopio virtual</u></b></h1>
 <p style="text-align: justify">Esta app web intenta simular un microscopio virtual de biología.
     <br>
     Los microscopios funcionan como editores de video, mediante distintos controladores tipo ruedita o slider van
     cambiando el brillo (mediante el voltímetro), contraste (mediante el diafragma), enfoque o blur (mediante el
-    macrométrico).
+    macrométrico), posición de la imagen (mediante la platina, en X e Y)
     <br>
-    Páginas que usan JavaScript:
+    <br>
+    <b><i>Páginas que usan JavaScript en este proyecto:</i></b>
 </p>
 
 <h2 style="color:DarkCyan;"><b>✦ Página "ciencia hoy"</b></h2>
@@ -80,6 +84,3 @@ Tercera preentrega - curso javascript coder
     tan alejado estuvo el enfoque del alumno del enfoque ideal. Además, a la derecha hay una pregunta. </p>
 La nota final del ejercicio es el promedio entre la nota del enfoque y la nota de la pregunta y se guarda en el
 array de usuarios y en el localStorage
-
-El proyecto puede visualizarse en:
-https://luerjavec.github.io/PF-ErjavecLuciana-JS/
