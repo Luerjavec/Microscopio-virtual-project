@@ -9,21 +9,28 @@ https://luerjavec.github.io/PF-ErjavecLuciana-JS/
     <br>
     Los microscopios funcionan como editores de video, mediante distintos controladores tipo ruedita o slider van
     cambiando el brillo (mediante el voltímetro), contraste (mediante el diafragma), enfoque o blur (mediante el
-    macrométrico), posición de la imagen (mediante la platina, en X e Y)
+    macrométrico), posición de la imagen (mediante la platina, en X e Y)</p>
     <br>
     <br>
-    <b><i>Páginas que usan JavaScript en este proyecto:</i></b>
-</p>
+<h2><b><i>Usuarios para pruebas:</i></b></h2>
 
-<h2 style="color:DarkCyan;"><b>✦ Página "ciencia hoy"</b></h2>
+Se puede crear un nuevo usuario, o usar los de prueba:
+<ul>
+    <li> Mail: profe@gmail.com, contraseña: profe</li>
+    <li> Mail: alumno@gmail.com, contraseña alumno</li>
+</u>
+
+<h2><b><i>Páginas que usan JavaScript en este proyecto:</i></b></h2>
+
+<h3 style="color:DarkCyan;"><b>✦ Página "ciencia hoy"</b></h3>
 <p style="text-align: justify">Trae noticias a través de la API currentnews usando el método fetch y las muestra
     como tarjetas.</p>
 
-<h2 style="color:DarkCyan"><b>✦ Página "contacto"</b></h2>
+<h3 style="color:DarkCyan"><b>✦ Página "contacto"</b></h3>
 <p style="text-align: justify">Toma los datos del formulario de contacto y envía un mail a través de la librería
     Email.js</p>
 
-<h2 style="color:DarkCyan"><b>✦ Página "inciar sesión/registrarse"</b></h2>
+<h3 style="color:DarkCyan"><b>✦ Página "inciar sesión/registrarse"</b></h3>
 <ul>
     <li>
         <p style="text-align: justify">- Iniciar sesión: chequea si el mail y contraseña coinciden con algún usuario
@@ -46,11 +53,11 @@ https://luerjavec.github.io/PF-ErjavecLuciana-JS/
     del Dashboard se presenta
     diferente si el usuario es alumno o profesor.</p>
 
-<h2 style="color:RoyalBlue;"><b>✦ Dashboard → inicio</b></h2>
+<h3 style="color:RoyalBlue;"><b>✦ Dashboard → inicio</b></h3>
 <p style="text-align: justify">Le da la bienvenida al usuario que ingresó usando las propiedades de nombre y tipo de
     perfil.</p>
 
-<h2 style="color:RoyalBlue;"><b>✦ Dashboard → Ejercicios</b></h2>
+<h3 style="color:RoyalBlue;"><b>✦ Dashboard → Ejercicios</b></h3>
 <p style="text-align: justify">Muestra la lista de ejercicios disponibles en tarjetas a través de una plantilla html
     dinámica.</p>
 <ul>
@@ -72,12 +79,12 @@ https://luerjavec.github.io/PF-ErjavecLuciana-JS/
     </li>
 </ul>
 
-<h2 style="color:RoyalBlue;"><b>✦ Dashboard → Tabla</b></h2>
+<h3 style="color:RoyalBlue;"><b>✦ Dashboard → Tabla</b></h3>
 <p style="text-align: justify">Crea una lista dinámica de 4 columnas de acuerdo al perfil.
     - Si el perfil es alumno, muestra los ejercicios disponibles, si lo completó o no y su nota.
     - Si el perfil es docente, muestra una lista de alumnos, sus notas y su promedio.</p>
 
-<h2 style="color:RoyalBlue;"><b>✦ Plataforma</b></h2>
+<h3 style="color:RoyalBlue;"><b>✦ Plataforma</b></h3>
 <p style="text-align: justify">Muestra la imagen del ejercicio elegido y las preguntas correspondientes. Ajustando
     los controles de la izquierda (diafragma, voltímetro, macrométrico, platina) va cambiando la visualización de la
     imagen central y también el movimiento del microscopio. La plataforma le da una nota, que se calcula según qué
