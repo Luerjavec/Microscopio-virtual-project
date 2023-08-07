@@ -76,7 +76,7 @@ function recuperarContraseña() {
 };
 
 function recuperacionEmail() {
-    const mailRecuperar = document.querySelector("#register-user").value.toLowerCase();
+    const mailRecuperar = document.querySelector("#olvidar-mail").value.toLowerCase();
     const templateParams = { olvidarMail: mailRecuperar, newPassword: randomPassword };
     const serviceID = 'default_service';
     const templateID = 'template_y06zeh9';
