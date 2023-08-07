@@ -9,7 +9,8 @@ https://luerjavec.github.io/PF-ErjavecLuciana-JS/
     <br>
     Los microscopios funcionan como editores de video, mediante distintos controladores tipo ruedita o slider van
     cambiando el brillo (mediante el voltímetro), contraste (mediante el diafragma), enfoque o blur (mediante el
-    macrométrico), posición de la imagen (mediante la platina, en X e Y)</p>
+    macrométrico), posición de la imagen (mediante la platina, en X e Y).
+    <br>La idea de la app es que los alumnos puedan practicar el uso del microscopio, y que se les otorgue una nota de acuerdo a cómo lo hicieron. Y que luego los profes puedan ver cómo le fue a cada alumno.</p>
     <br>
 <h2><b><i>Usuarios para pruebas:</i></b></h2>
 
