@@ -76,7 +76,8 @@ function recuperarContraseña() {
 };
 
 function recuperacionEmail() {
-    const templateParams = { olvidarMail: 'luerjavec@gmail.com', newPassword: randomPassword };
+    const mailRecuperar = document.querySelector("#register-user").value.toLowerCase();
+    const templateParams = { olvidarMail: mailRecuperar, newPassword: randomPassword };
     const serviceID = 'default_service';
     const templateID = 'template_y06zeh9';
 
