@@ -45,8 +45,8 @@ function tableBodyProfe() {
         let promedio;
         if (u.perfil == "alumno") {
             promedio = notas.reduce((a, b) => a + b, 0) / u.notas.length || "-";
-        } else if (u.perfil == "profesor") {
-            promedio = "Profesor"
+        } else {
+            promedio = ""
         }
 
         let notasDetalle = "";

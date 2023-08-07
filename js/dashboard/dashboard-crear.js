@@ -88,7 +88,6 @@ function editarEjercicio() {
         ejercicio.preguntas[0].opc1 = opc1.value;
         ejercicio.preguntas[0].opc2 = opc2.value;
         ejercicio.preguntas[0].opc3 = opc3.value;
-        console.log(nuevaImagen)
         ejercicio.imagen = nuevaImagen || ejercicio.imagen;
 
         localStorage.setItem("ejerciciosMV", JSON.stringify(ejercicios));

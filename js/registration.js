@@ -45,7 +45,6 @@ olvidarForm.addEventListener("submit", function (e) {
     e.preventDefault();
     btnOlvidar.innerText = 'Enviando código...';
     recuperarContraseña();
-    recuperacionEmail();
 });
 
 
@@ -72,6 +71,7 @@ function recuperarContraseña() {
         const indexUs = usuarios.findIndex(u => u.email == olvidarMail);
         usuarios[indexUs].password = randomPassword;
         localStorage.setItem("usuariosMV", JSON.stringify(usuarios));
+        recuperacionEmail();
     }
 };
 
@@ -96,7 +96,13 @@ function recuperacionEmail() {
             btnOlvidar.innerText = 'Recuperar contraseña';
         }, (err) => {
             btnOlvidar.innerText = 'Recuperar contraseña';
-            console.log(JSON.stringify(err));
+            Swal.fire({
+                title: `Error`,
+                text: `Ocurrió un error. Intenta de nuevo más tarde.`,
+                icon: 'error',
+                iconColor: 'red',
+                confirmButtonText: 'OK'
+            })
         });
 }
 
@@ -116,7 +122,7 @@ function confirmacionEmail() {
                 title: `Error`,
                 text: `Ocurrió un error, por favor intenta de nuevo más tarde`,
                 icon: 'error',
-                iconColor: '#6a1635',
+                iconColor: 'red',
                 confirmButtonText: 'OK'
             })
         });
@@ -140,7 +146,7 @@ function crearCuenta() {
         usuarioToArray(registerPerfil, registerNombre, registerMail, registerPassword);
         Swal.fire({
             title: `Cuenta creada`,
-            text: `Listo ${registerNombre}, ya podés usar tu cuenta para iniciar sesión`,
+            text: `Listo ${registerNombre}, ya podés usar tu cuenta para iniciar sesión. Te enviamos un mail de bienvenida`,
             icon: 'success',
             iconColor: '#0a5124',
             confirmButtonText: 'OK'

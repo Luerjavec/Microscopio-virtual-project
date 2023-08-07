@@ -11,14 +11,13 @@ https://luerjavec.github.io/PF-ErjavecLuciana-JS/
     cambiando el brillo (mediante el voltímetro), contraste (mediante el diafragma), enfoque o blur (mediante el
     macrométrico), posición de la imagen (mediante la platina, en X e Y)</p>
     <br>
-    <br>
 <h2><b><i>Usuarios para pruebas:</i></b></h2>
 
 Se puede crear un nuevo usuario, o usar los de prueba:
 <ul>
     <li> Mail: profe@gmail.com, contraseña: profe</li>
     <li> Mail: alumno@gmail.com, contraseña alumno</li>
-</u>
+</ul>
 
 <h2><b><i>Páginas que usan JavaScript en este proyecto:</i></b></h2>
 
@@ -33,17 +32,17 @@ Se puede crear un nuevo usuario, o usar los de prueba:
 <h3 style="color:DarkCyan"><b>✦ Página "inciar sesión/registrarse"</b></h3>
 <ul>
     <li>
-        <p style="text-align: justify">- Iniciar sesión: chequea si el mail y contraseña coinciden con algún usuario
+        <p style="text-align: justify"> Iniciar sesión: chequea si el mail y contraseña coinciden con algún usuario
             de la base de datos e inicia sesión,
             guarda el número de usuario en el SesionStorage para recuperarlos en la plataforma.</p>
     </li>
     <li>
-        <p style="text-align: justify">- Registrar usuario nuevo: Toma los datos del formulario y los guarda en el
+        <p style="text-align: justify"> Registrar usuario nuevo: Toma los datos del formulario y los guarda en el
             array de usuarios, además envía un mail
             de confirmación a través de la librería Email.js</p>
     </li>
     <li>
-        <p style="text-align: justify">- Recuperar contraseña: Si el mail estaba registrado, genera una contraseña
+        <p style="text-align: justify"> Recuperar contraseña: Si el mail estaba registrado, genera una contraseña
             random y se la envía por mail a través
             de la librería Email.js.</p>
     </li>
@@ -62,14 +61,14 @@ Se puede crear un nuevo usuario, o usar los de prueba:
     dinámica.</p>
 <ul>
     <li>
-        <p style="text-align: justify"> - Si el perfil es alumno: Las tarjetas muestran si completó o no el
+        <p style="text-align: justify"> Si el perfil es alumno: Las tarjetas muestran si completó o no el
             ejercicio, su nota y fecha. El botón de
             la esquina redirige al usuario a la plataforma para resolver el ejercicio. El id del botón es igual al
             índice del dentro del array de ejercicios, y se guarda en el SesionStorage para recuperarlo en la
             plataforma.</p>
     </li>
     <li>
-        <p style="text-align: justify"> - Si el perfil es profesor: Las tarjetas muestran la fecha de vencimiento
+        <p style="text-align: justify"> Si el perfil es profesor: Las tarjetas muestran la fecha de vencimiento
             del ejercicio y cuantos alumnos
             lo completaron. Tiene tres botones: uno para ingresar a la plataforma y previsualizar el ejercicio; otro
             para eliminar el ejercicio (elimina el ejercicio del array) y otro para editarlo (redirige a la prima de
