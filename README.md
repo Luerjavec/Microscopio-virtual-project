@@ -1,9 +1,3 @@
-# Preentrega3-ErjavecLuciana
-Tercera preentrega - curso javascript coder
-
-El proyecto puede visualizarse en:
-https://luerjavec.github.io/PF-ErjavecLuciana-JS/
-
 <h1 style="color:Indigo;"><b><u>Microscopio virtual</u></b></h1>
 <p style="text-align: justify">Esta app web intenta simular un microscopio virtual de biología.
     <br>
