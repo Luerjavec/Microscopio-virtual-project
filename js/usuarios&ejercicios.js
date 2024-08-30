@@ -118,11 +118,11 @@ if (window.location.href.includes("registration.html") == true) {
 
     if (ejercicios === null) {
         ejercicios = [];
-        ejercicioToArray(DateTime.fromObject({year: 2024, month: 8, day: 1}), "Análisis y reconocimiento de tejido vegetal con tinción", "vegetal.avif", 0, 100, 100, "¿Qué tinción se utilizó?", "Safranina-Fast green", "Azul de anilina", "Violeta de Cresilo");
-        ejercicioToArray(DateTime.fromObject({year: 2024, month: 8, day: 28}), "Microscopía de fluorescencia de quistes renales", "ej_fluorescencia.avif", 0, 100, 100, "¿Qué estructura se reconoce?", "Núcleos", "Tubulina", "Filamentos");
-        ejercicioToArray(DateTime.fromObject({year: 2024, month: 9, day: 2}), "Visualización de preparado de aparato respiratorio", "laringe.avif", 0, 100, 100, "¿Qué tinción se utilizó?", "Hematoxilina-eosina", "Azul de metileno", "Violeta de Genciana");
-        ejercicioToArray(DateTime.fromObject({year: 2024, month: 7, day: 30}), "Visualización de tejido conectivo con Alcian blue - PAS", "alcian-blue.avif", 0, 100, 100, "¿Qué estructura se reconoce en azul?", "Cartílago", "Epitelio", "Membrana");
-        ejercicioToArray(DateTime.fromObject({year: 2024, month: 9, day: 17}), "Cálculo del índice mitótico en tinción de tejido vegetal", "mitosis.avif", 0, 100, 100, "¿Cuántas figuras mitóticas encuentra?", "10", "8", "5");
+        ejercicioToArray(DateTime.fromObject({year: 2024, month: 12, day: 1}), "Análisis y reconocimiento de tejido vegetal con tinción", "vegetal.avif", 0, 100, 100, "¿Qué tinción se utilizó?", "Safranina-Fast green", "Azul de anilina", "Violeta de Cresilo");
+        ejercicioToArray(DateTime.fromObject({year: 2024, month: 10, day: 28}), "Microscopía de fluorescencia de quistes renales", "ej_fluorescencia.avif", 0, 100, 100, "¿Qué estructura se reconoce?", "Núcleos", "Tubulina", "Filamentos");
+        ejercicioToArray(DateTime.fromObject({year: 2024, month: 11, day: 2}), "Visualización de preparado de aparato respiratorio", "laringe.avif", 0, 100, 100, "¿Qué tinción se utilizó?", "Hematoxilina-eosina", "Azul de metileno", "Violeta de Genciana");
+        ejercicioToArray(DateTime.fromObject({year: 2024, month: 12, day: 30}), "Visualización de tejido conectivo con Alcian blue - PAS", "alcian-blue.avif", 0, 100, 100, "¿Qué estructura se reconoce en azul?", "Cartílago", "Epitelio", "Membrana");
+        ejercicioToArray(DateTime.fromObject({year: 2024, month: 10, day: 17}), "Cálculo del índice mitótico en tinción de tejido vegetal", "mitosis.avif", 0, 100, 100, "¿Cuántas figuras mitóticas encuentra?", "10", "8", "5");
 
         //Cambio algunas notas y fechas random para que los datos sean más interesantes:
         
