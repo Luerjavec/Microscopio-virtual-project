@@ -129,7 +129,7 @@ if (window.location.href.includes("registration.html") == true) {
         
         usuarios.forEach(function (usuario, index, usuarios) {
             usuarios[index].notas.forEach(function (nota, index, notas) {
-                const randomDay = DateTime.fromObject({year: 2024, month: 9, day: (Math.floor(Math.random() * (30 - 1) + 1))});
+                const randomDay = DateTime.fromObject({year: 2024, month: 10, day: (Math.floor(Math.random() * (30 - 1) + 1))});
                 
                 notas[index] = {
                     nota: Math.floor(Math.random() * (10 - 0)),
